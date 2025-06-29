@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPH2YST3Z6"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DPH2YST3Z6');
+    </script>
+
+    <title> Hengzhi Ye </title>
+    <!-- <link rel="icon" type="image/x-icon" href="assets/images/stanford.ico"> -->
+</head>
+
+<body>
+    <div style="width:1000px;margin: 0px auto;">
+        <header id="header" width="400px" style="display:flex;justify-content: space-around;">
+            <a href="#profile-intro">Home</a>
+            <a href="#updates">News</a>
+            <a href="#education">Education</a>
+            <a href="#research">Research</a>
+            <a href="#service">Service</a>
+        </header>
+        <div id="profile">
+            <div id="profile-pic">
+                <img src="figs/profile.jpg" />
+            </div>
+            <div id="profile-intro">
+                <div id="profile-name">Hengzhi Ye</div>
+                <div id="profile-email">hzye at stu dot pku dot edu dot cn</div>
+                <p>
+                    I am currently a second-year Ph.D. Student in Computer Science at <a href="https://www.pku.edu.cn">Peking University</a>, advised by Prof. <a href="https://minghuizhou.github.io">Minghui Zhou</a>. Before this, I graduated from <a href="https://www.tsinghua.edu.cn">Tsinghua University</a> in June 2024 and earned my Bachelor's degree in Automatic Science.
+                    <br>
+                    <br>
+                    I'm interested in understanding and characterizing the complex process of software development, and making both the human cooperation and human-computer interaction during the process more efficient and comfortable. Roughly speaking, my research interest mainly focuses on HCC, HCI, AI for SE, etc.
+                </p>
+                <div>
+                    <a href="cv/cv_yhz.pdf">
+                        CV
+                    </a>
+                    /
+                    <a href=""> <!-- 需要加上我自己的scholar -->
+                        Google Scholar
+                    </a>
+                    /
+                    <a href="https://github.com/hz-ye">
+                        Github
+                    </a>
+                    </a>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+
+        <div class="section" id="updates">
+            <h1>News</h1>
+            <ul>
+                <li> <b>Mar 2025</b> &nbsp;&nbsp; Our paper is accepted to CSCW 2025!
+                <li> <b>Sep 2024</b> &nbsp;&nbsp; Started PhD at Peking University, advised by Prof. <a href="https://minghuizhou.github.io">Minghui Zhou</a>. Excited to work on HCI and AI for SE!
+                <li> <b>Jun 2024</b> &nbsp;&nbsp; Graduated from Tsinghua University with a Bachelor's degree in Automatic Science. 🎓
+                <li> <b>Jan 2024</b> &nbsp;&nbsp; Won the Comprehensive Excellence Award of Tsinghua University. 🎉
+            </ul>
+            <p></p>
+            <div style="clear: both;"></div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section" id="education">
+            <h1>Education</h1>
+            <ul>
+                <li> <b>2020 - 2024</b> &nbsp;&nbsp;&nbsp;&nbsp; B.E. in Automatic Science, Tsinghua University. <b>GPA:</b> 3.76/4.00 </li>
+                <li> <b>2024 - now</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ph.D. in Computer Science, Peking University. <b>GPA:</b> 4.00/4.00</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div style="display:flex;flex-direction: column;" id="research">
+            <h1>Research</h1>      
+
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <img id="teaser" width="100%" src="figs/cooperation.jpg" alt="Project thumbnail">
+                </a>
+                <a href="" class="research-proj-title">
+                    Characterising Open Source Co-opetition in Company-hosted Open Source Software Projects: The Cases of PyTorch, TensorFlow, and Transformers
+                </a>
+                <p>
+                    Cailean Osborne, Farbod Daneshyan, Runzhi He,
+                    <b>Hengzhi Ye</b>,
+                    Yuxia Zhang, Minghui Zhou
+                    <br>The 28th ACM Conference on Computer-Supported Cooperative Work & Social Computing (CSCW'25)<br>
+                    <a href="https://dl.acm.org/doi/pdf/10.1145/3710944">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/ccosborne/paper-open-source-co-opetition">Code</a>
+                </p>
+                <br>
+                <p>
+                    <b>TL;DR</b>: Understanding the Inter-Cooperation in Company-hosted OSS Projects through empirical study on PyTorch, TensorFlow, and Transformers.
+                </p>
+            </div>
+
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <img id="teaser" width="100%" src="figs/hits.jpg" alt="Project thumbnail">
+                </a>
+                <a href="" class="research-proj-title">
+                    Revealing the value of Repository Centrality in lifespan prediction of Open Source Software Projects
+                </a>
+                <p>
+                    Runzhi He*,
+                    <b>Hengzhi Ye*</b>,
+                    Minghui Zhou
+                    <br>arXiv:2405.07508v1<br>
+                    <a href="https://arxiv.org/pdf/2405.07508">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="">Code</a>
+                </p>
+                <br>
+                <p>
+                    <b>TL;DR</b>: Modeling bipartite graph for user and repository, then leveraging HITS centrality to predict the lifespan of OSS projects.
+                </p>
+            </div>
+
+            <div style="clear: both;"></div>
+        </div>
+        <div style="margin-top: 2em;">
+            <p>
+                * equal contribution.
+            </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section" id="service">
+            <h1>Service</h1>
+            <ul>
+                <li> Teaching assistant of Computing Theory(24Fall) at School of EECS, Peking University</li>
+                <li> Reviewer of CSCW 2026.
+            </ul><br>
+            <p></p>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
