@@ -91,14 +91,17 @@ strong {
 }
 
 #profile-pic {
-    width: 280px;
+    width: 240px;
+    height: 380px;
     float: left;
+    display: flex;
+    align-items: center;
     margin-right: 40px;
     text-align: center;
 }
 
 #profile img {
-    width: 100%;
+    width: 95%;
     object-fit: cover; /* Ensures the image covers the area properly */
 }
 
